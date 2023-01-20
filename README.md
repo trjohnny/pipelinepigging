@@ -1,12 +1,12 @@
 # pipelinepigging
-Progetto DB per il Pipeline Pigging
+DB Project for Pipeline Pigging
 
-Lo sviluppo del progetto completo è contenuto nel file Progetto BDD.pdf
+The development of the complete project is contained in the file Project BDD.pdf.
 
-Ci sono 2 file .sql per importare il database (MySQL), un file contiene solo le tabelle, le relazioni e i triggers, mentre l'altro file contiene anche una quantità di dati sufficiente (INSERT) a interagire con il DB.
+There are 2 .sql files to import the database (MySQL), one file contains only the tables, relationships and triggers, while the other file also contains enough data (INSERT) to interact with the DB.
 
-Nella cartella /src/ c'è un progetto Java per testare le operazioni sul DB. Nella classe Database.java sono contenute tutti i metodi pubblici (richiamati dalla classe Main) per le interrogazioni sul DB. Le altre classi sono di supporto.
+In the /src/ folder is a Java project to test the operations on the DB. The Database.java class contains all the public methods (called by the Main class) for queries on the DB. The other classes are for support.
 
-Il database è stato popolato con funzioni apposite situate nella classe Database.java.
+The database was populated with special functions located in the Database.java class.
 
-Per la connessione al DB è stato usato il JDBC connector contenuto in questa cartella.
+The JDBC connector contained in this folder was used to connect to the DB.
